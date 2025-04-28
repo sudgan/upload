@@ -7,8 +7,8 @@
   "developer": {
     "name": "Azure Blob Uploader",
     "websiteUrl": "https://hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net/",
-    "privacyUrl": "https://hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net/privacy",
-    "termsOfUseUrl": "https://hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net/terms"
+    "privacyUrl": "https://hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net/",
+    "termsOfUseUrl": "https://hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net/"
   },
   "name": {
     "short": "Azure Blob Uploader",
