@@ -1,0 +1,57 @@
+{
+    "schema": "https://schemas.botframework.com/schemas/skills/v2/manifest.schema.json",
+    "name": "FileUploadSkill",
+    "description": "A skill to upload files to Azure Blob Storage and invoke Azure Cognitive Search indexers.",
+    "publisherName": "Your Organization Name",
+    "version": "1.0",
+    "endpoint": {
+      "protocol": "REST",
+      "url": "https://hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net/"
+    },
+    "actions": [
+      {
+        "id": "uploadFiles",
+        "definition": {
+          "description": "Upload files to Azure Blob Storage.",
+          "inputs": [
+            {
+              "name": "fileName",
+              "type": "string",
+              "description": "The name of the file to be uploaded."
+            },
+            {
+              "name": "fileType",
+              "type": "string",
+              "description": "The type of the file (e.g., txt, csv, png, jpg, pdf)."
+            },
+            {
+              "name": "fileSize",
+              "type": "number",
+              "description": "The size of the file in bytes."
+            }
+          ],
+          "outputs": [
+            {
+              "name": "uploadStatus",
+              "type": "string",
+              "description": "The status of the file upload (e.g., success or error)."
+            }
+          ]
+        }
+      },
+      {
+        "id": "invokeIndexer",
+        "definition": {
+          "description": "Invoke the Azure Cognitive Search indexer after uploading files.",
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "indexerStatus",
+              "type": "string",
+              "description": "The status of the indexer invocation (e.g., success or error)."
+            }
+          ]
+        }
+      }
+    ]
+  }
