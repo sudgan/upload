@@ -6,9 +6,9 @@
   "packageName": "com.microsoft.teams.azureblobuploader",
   "developer": {
     "name": "Azure Blob Uploader",
-    "websiteUrl": "{{WEBSITE_URL}}",
-    "privacyUrl": "{{WEBSITE_URL}}/privacy",
-    "termsOfUseUrl": "{{WEBSITE_URL}}/terms"
+    "websiteUrl": "https://hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net/",
+    "privacyUrl": "https://hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net/privacy",
+    "termsOfUseUrl": "https://hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net/terms"
   },
   "name": {
     "short": "Azure Blob Uploader",
@@ -25,7 +25,7 @@
   "accentColor": "#0078D4",
   "configurableTabs": [
     {
-      "configurationUrl": "{{WEBSITE_URL}}/config",
+      "configurationUrl": "https://hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net/config",
       "canUpdateConfiguration": true,
       "scopes": [
         "team",
@@ -37,8 +37,8 @@
     {
       "entityId": "index",
       "name": "Azure Blob Uploader",
-      "contentUrl": "{{WEBSITE_URL}}",
-      "websiteUrl": "{{WEBSITE_URL}}",
+      "contentUrl": "https://hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net/",
+      "websiteUrl": "https://hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net/",
       "scopes": [
         "personal"
       ]
@@ -49,10 +49,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "{{WEBSITE_DOMAIN}}"
-  ],
-  "webApplicationInfo": {
-    "id": "{{AAD_APP_ID}}",
-    "resource": "{{AAD_APP_RESOURCE}}"
-  }
+    "hhrupload-hkdgf8d2e5efgmed.eastus-01.azurewebsites.net"
+  ]
+
 }
